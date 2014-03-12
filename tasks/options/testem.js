@@ -5,9 +5,9 @@ module.exports = {
       parallel: 2,
       framework: 'qunit',
       port: (parseInt(process.env.PORT || 7358, 10) + 1),
-      test_page: 'tmp/result/tests/index.html',
+      test_page: 'tmp/result/spec/index.html',
       routes: {
-        '/tests/tests.js': 'tmp/result/tests/tests.js',
+        '/spec/spec.js': 'tmp/result/spec/spec.js',
         '/assets/app.js': 'tmp/result/assets/app.js',
         '/assets/templates.js': 'tmp/result/assets/templates.js',
         '/assets/app.css': 'tmp/result/assets/app.css'
@@ -24,9 +24,9 @@ module.exports = {
       parallel: 8,
       framework: 'qunit',
       port: (parseInt(process.env.PORT || 7358, 10) + 1),
-      test_page: 'tmp/result/tests/index.html',
+      test_page: 'tmp/result/spec/index.html',
       routes: {
-        '/tests/tests.js': 'tmp/result/tests/tests.js',
+        '/spec/spec.js': 'tmp/result/spec/spec.js',
         '/assets/app.js': 'tmp/result/assets/app.js',
         '/assets/templates.js': 'tmp/result/assets/templates.js',
         '/assets/app.css': 'tmp/result/assets/app.css'

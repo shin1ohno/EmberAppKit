@@ -9,7 +9,7 @@ var docs = '{app}/**/*.{js,coffee,em}',
     sprites = 'app/sprites/**/*.{png,jpg,jpeg}',
     styles = 'app/styles/**/*.{css,sass,scss,less,styl}',
     indexHTML = 'app/index.html',
-    other = '{app,tests,public}/**/*',
+    other = '{app,spec,public}/**/*',
     bowerFile = 'bower.json',
     npmFile = 'package.json';
 

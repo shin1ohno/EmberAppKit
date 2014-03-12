@@ -4,7 +4,7 @@ module.exports = {
     options: { context: { dist: false, tests: false } }
   },
   indexHTMLDebugTests: {
-    src : 'app/index.html', dest : 'tmp/result/tests/index.html',
+    src : 'app/index.html', dest : 'tmp/result/spec/index.html',
     options: { context: { dist: false, tests: true } }
   },
   indexHTMLDistApp: {
@@ -12,7 +12,7 @@ module.exports = {
     options: { context: { dist: true, tests: false } }
   },
   indexHTMLDistTests: {
-    src : 'app/index.html', dest : 'tmp/result/tests/index.html',
+    src : 'app/index.html', dest : 'tmp/result/spec/index.html',
     options: { context: { dist: true, tests: true } }
   }
 };

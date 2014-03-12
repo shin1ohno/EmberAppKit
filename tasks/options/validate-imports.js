@@ -37,7 +37,7 @@ module.exports = {
     files: [{
       expand: true,
       cwd: '.',
-      src: ['tests/**/*.js']
+      src: ['spec/**/*.js']
     }, {
       expand: true,
       cwd: '.',

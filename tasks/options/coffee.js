@@ -21,9 +21,9 @@ module.exports = {
     },
     files: [{
       expand: true,
-      cwd: 'tests/',
+      cwd: 'spec/',
       src: '**/*.coffee',
-      dest: 'tmp/javascript/tests',
+      dest: 'tmp/javascript/spec',
       ext: '.js'
     }]
   },

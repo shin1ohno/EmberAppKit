@@ -4,13 +4,13 @@ module.exports = {
   "tests": {
     type: 'amd',
     moduleName: function(path) {
-      return grunt.config.process('<%= package.namespace %>/tests/') + path;
+      return grunt.config.process('<%= package.namespace %>/spec/') + path;
     },
     files: [{
       expand: true,
-      cwd: 'tmp/javascript/tests/',
+      cwd: 'tmp/javascript/spec/',
       src: '**/*.js',
-      dest: 'tmp/transpiled/tests/'
+      dest: 'tmp/transpiled/spec/'
     }]
   },
   "app": {

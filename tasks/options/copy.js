@@ -11,9 +11,9 @@ module.exports = {
     },
     {
       expand: true,
-      cwd: 'tests',
+      cwd: 'spec',
       src: ['**/*.js', '!test-helper.js', '!test-loader.js'],
-      dest: 'tmp/javascript/tests/'
+      dest: 'tmp/javascript/spec/'
     }]
   },
 
@@ -31,9 +31,9 @@ module.exports = {
   assemble: {
     files: [{
       expand: true,
-      cwd: 'tests',
+      cwd: 'spec',
       src: ['test-helper.js', 'test-loader.js'],
-      dest: 'tmp/result/tests/'
+      dest: 'tmp/result/spec/'
     }, {
       expand: true,
       cwd: 'public',
@@ -62,7 +62,7 @@ module.exports = {
         '**',
         '!**/*.{css,js}', // Already handled by concat
         '!**/*.{png,gif,jpg,jpeg}', // Already handled by imagemin
-        '!tests/**/*', // No tests, please
+        '!spec/**/*', // No tests, please
         '!**/*.map' // No source maps
       ],
       filter: 'isFile',

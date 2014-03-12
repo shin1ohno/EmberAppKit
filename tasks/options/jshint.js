@@ -16,9 +16,9 @@ module.exports = {
 
   tests: {
     src: [
-      'tests/**/*.js',
+      'spec/**/*.js',
     ],
-    options: { jshintrc: 'tests/.jshintrc' }
+    options: { jshintrc: 'spec/.jshintrc' }
   },
 
   options: {

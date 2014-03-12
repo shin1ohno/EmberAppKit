@@ -16,8 +16,8 @@ module.exports = {
   },
 
   test: {
-    src: 'tmp/transpiled/tests/**/*.js',
-    dest: 'tmp/result/tests/tests.js',
+    src: 'tmp/transpiled/spec/**/*.js',
+    dest: 'tmp/result/spec/spec.js',
     options: {
       sourcesContent: true
     }
