@@ -13,6 +13,13 @@
     "ember-load-initializers": "git://github.com/stefanpenner/ember-load-initializers.git#0.0.1"
   },
   "resolutions": {
-    "ember": "~1.5.0"
+    "ember": "~1.5.0",
+    "emblem.js": "~0.3.12"
+  },
+  "devDependencies": {
+    "emblem": "~0.3.12",
+    "bootstrap": "~3.1.1",
+    "bootstrap-sass-official": "~3.1.1",
+    "font-awesome": "~4.0.3"
   }
 }
